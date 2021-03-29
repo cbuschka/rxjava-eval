@@ -12,8 +12,8 @@
     <groupId>com.github.cbuschka.rxjava-eval</groupId>
     <artifactId>rxjava-eval</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>parent</name>
-    <description>Demo project for Spring Boot</description>
+    <name>rxjava-eval</name>
+    <description>Demo project for rxjava2</description>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
