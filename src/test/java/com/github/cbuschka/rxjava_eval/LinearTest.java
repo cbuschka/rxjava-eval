@@ -23,11 +23,9 @@ public class LinearTest
 	}
 
 	@Test
-	void linearPrintln()
+	void multiple()
 	{
-		List<String> messages = Arrays.asList("Hello", "World", "!");
-
-		Observable.fromIterable(messages)
+		Observable.fromIterable(Arrays.asList("Hello", "World", "!"))
 				.subscribe((m) -> output.add("Subscriber: " + m))
 				.dispose();
 
